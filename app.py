@@ -54,7 +54,7 @@ def index():
                                            getMRTVideoMessage()
                                            ]
                 elif text == "台北101影片":
-                    payload["messages"] = getMRTVideoMessage()                
+                    payload["messages"] = [getMRTVideoMessage()]                
                 elif text == "quoda":
                     payload["messages"] = [
                             {
