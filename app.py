@@ -218,7 +218,7 @@ def getMRTVideoMessage():
     message = dict()
     message["type"] = "video"
     message["originalContentUrl"] = F"{end_point}/static/taipe_101_video.mp4"
-    message["previewImageUrl"] = F"{end_point}/static/taipe_1.jpeg"
+    message["previewImageUrl"] = F"{end_point}/static/taipei_1.jpeg"
     return message
 
 
